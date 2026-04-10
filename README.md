@@ -15,7 +15,7 @@ This repository contains my solutions and writeups for various TryHackMe rooms a
 
 ## 🔍 Focus Areas
 
-- Web Security Basics  
+- Web Security   
 - System Enumeration  
 - Privilege Escalation  
 - Capture The Flag (CTF) Challenges  
