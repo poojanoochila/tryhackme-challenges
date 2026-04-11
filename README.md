@@ -1,6 +1,6 @@
 # 🛡️ TryHackMe Writeups & Challenges
 
-This repository contains my solutions and writeups for various TryHackMe rooms and challenges. It represents my hands-on learning in cybersecurity and my progress toward becoming a SOC Analyst.
+This repository contains my solutions and writeups for various TryHackMe rooms and challenges. It represents my hands-on learning in cybersecurity Hacktivities.
 
 ---
 
