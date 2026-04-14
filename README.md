@@ -9,8 +9,8 @@ This repository contains my solutions and writeups for various TryHackMe rooms a
 - Build practical cybersecurity skills  
 - Understand real-world attack techniques  
 - Learn vulnerability identification and exploitation  
-- Improve security analysis and problem-solving  
-
+- Improve security analysis and problem-solving
+  
 ---
 
 ## 🔍 Focus Areas
