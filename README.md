@@ -1,4 +1,4 @@
-# 🛡️ TryHackMe Writeups & Challenges
+# TryHackMe Writeups & Challenges
 
 This repository contains my solutions and writeups for various TryHackMe rooms and challenges. It represents my hands-on learning in cybersecurity Hacktivities.
 
