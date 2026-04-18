@@ -1,0 +1,202 @@
+# SOC Mapping: Concepts → Attacks → Detection → Response
+
+This document maps core cybersecurity concepts to real-world attack scenarios, detection strategies, and SOC response actions.
+
+---
+
+## 🔐 CIA Triad
+
+### Confidentiality
+- Attacks:
+  - Credential theft (phishing, brute force)
+  - Unauthorized data access
+- Indicators:
+  - Multiple failed login attempts
+  - Login from unusual location/device
+  - Access outside normal working hours
+- Log Sources:
+  - Authentication logs
+  - VPN logs
+- SOC Actions:
+  - Trigger alert
+  - Enforce MFA / password reset
+  - Investigate account activity
+
+---
+
+### Integrity
+- Attacks:
+  - File tampering
+  - Data manipulation
+  - Log alteration
+- Indicators:
+  - File hash mismatch
+  - Unexpected configuration changes
+- Log Sources:
+  - File Integrity Monitoring (FIM)
+  - System logs
+- SOC Actions:
+  - Restore original files
+  - Investigate unauthorized changes
+  - Check for persistence mechanisms
+
+---
+
+### Availability
+- Attacks:
+  - DDoS
+  - Resource exhaustion
+- Indicators:
+  - Sudden traffic spikes
+  - Service downtime / latency increase
+- Log Sources:
+  - Network traffic logs
+  - Server performance logs
+- SOC Actions:
+  - Block malicious IPs
+  - Apply rate limiting
+  - Escalate incident
+
+---
+
+## 🔑 Access Control Principles
+
+### Least Privilege
+- Attack:
+  - Privilege escalation
+- Indicators:
+  - User gaining admin rights unexpectedly
+  - Access to restricted files
+- Log Sources:
+  - Access control logs
+- SOC Actions:
+  - Revoke elevated access
+  - Audit user permissions
+  - Investigate root cause
+
+---
+
+### Separation of Duties
+- Attack:
+  - Insider threat / misuse of power
+- Indicators:
+  - Single user performing multiple critical actions
+- Log Sources:
+  - Activity logs
+- SOC Actions:
+  - Review role assignments
+  - Enforce role separation
+
+---
+
+## 🛡️ Defense Strategies
+
+### Defense in Depth
+- Attack:
+  - Multi-stage intrusion
+- Indicators:
+  - Alerts across multiple systems (endpoint + network)
+- Log Sources:
+  - SIEM correlation
+- SOC Actions:
+  - Correlate alerts
+  - Identify attack chain
+  - Contain affected systems
+
+---
+
+### Zero Trust
+- Attack:
+  - Lateral movement
+- Indicators:
+  - Repeated authentication requests across systems
+- Log Sources:
+  - Authentication logs
+  - Network logs
+- SOC Actions:
+  - Verify identity continuously
+  - Restrict unauthorized access
+
+---
+
+## 🌐 Network-Based Attacks
+
+### Brute Force Attack
+- Indicators:
+  - High volume of failed login attempts
+- Log Sources:
+  - Authentication logs
+- SOC Actions:
+  - Block IP
+  - Alert escalation
+
+---
+
+### Data Exfiltration
+- Indicators:
+  - Large outbound traffic
+  - Unusual destination IP
+- Log Sources:
+  - Network traffic logs
+- SOC Actions:
+  - Block connection
+  - Investigate data transfer
+
+---
+
+### Command & Control (C2)
+- Indicators:
+  - Periodic outbound connections to unknown IPs
+- Log Sources:
+  - DNS logs
+  - Network logs
+- SOC Actions:
+  - Block domain/IP
+  - Isolate infected system
+
+---
+
+## 💻 Endpoint Threats
+
+### Malware Infection
+- Indicators:
+  - Unknown process execution
+  - Suspicious file creation
+- Log Sources:
+  - EDR logs
+- SOC Actions:
+  - Isolate endpoint
+  - Remove malware
+
+---
+
+### Persistence Mechanisms
+- Indicators:
+  - New startup entries
+  - Scheduled tasks
+- Log Sources:
+  - System logs
+- SOC Actions:
+  - Remove persistence
+  - Investigate initial access
+
+---
+
+## 📊 SOC Workflow Mapping
+
+### Step 1: Detection
+- Monitor logs (SIEM, IDS, EDR)
+- Identify anomalies and indicators
+
+### Step 2: Analysis
+- Correlate logs
+- Determine attack type and impact
+
+### Step 3: Response
+- Contain threat
+- Eradicate malicious activity
+- Recover affected systems
+
+### Step 4: Reporting
+- Document incident
+- Recommend preventive measures
