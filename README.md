@@ -1,12 +1,12 @@
 # 🔐 TryHackMe Challenges
 
-> Turning cybersecurity concepts into real-world detection skills.
+> Building real-world **detection and incident response skills** through hands-on labs.
 
 ---
 
 ## 🎯 Objective
 
-Aspiring **SOC Analyst** building hands-on skills in:
+Aspiring **SOC Analyst** focused on:
 
 * Threat detection
 * Log analysis
@@ -16,16 +16,16 @@ Aspiring **SOC Analyst** building hands-on skills in:
 
 ## ⚡ What Makes This Repository Different
 
-This is not just a collection of writeups.
+Most TryHackMe repositories focus on exploitation.
 
-Each room is documented with:
+This repository focuses on:
 
-* Attack understanding
-* Detection techniques
-* SOC workflow mapping (logs → alert → response)
+* Understanding attacks
+* Identifying **detection indicators (logs, anomalies)**
+* Mapping to **SOC workflows (detect → analyze → respond)**
 
-📌 **Key Highlight:**
-👉 `soc-mapping.md` — Maps security concepts to real-world detection and SOC operations
+📌 **Core Highlight:**
+👉 `soc-mapping.md` — Central knowledge base mapping concepts to real-world SOC detection strategies
 
 ---
 
@@ -34,26 +34,26 @@ Each room is documented with:
 * Security fundamentals (CIA Triad, security principles)
 * Detection thinking (attack → indicator → response)
 * Log-based analysis approach
-* Understanding of attacker behavior
+* Understanding attacker behavior
 
 ---
 
 ## 📂 Repository Structure
 
-* `fundamentals/` → Core security concepts
-* `networking/` → Traffic and protocols
-* `web/` → Web vulnerabilities
-* `detection-labs/` → SOC-focused scenarios
+* `fundamentals/` → Security concepts and principles
+* `networking/` → Traffic analysis and protocols
+* `web/` → Web vulnerabilities and attack patterns
+* `detection-labs/` → SOC-focused detection scenarios
 
 ---
 
 ## 📈 Learning Approach
 
-For each challenge:
+For each room:
 
 1. Understand the attack
 2. Identify indicators (logs, anomalies)
-3. Map to detection strategies
+3. Map detection strategy
 4. Define SOC response actions
 
 ---
@@ -69,4 +69,4 @@ Actively preparing for:
 
 ## ⚠️ Disclaimer
 
-All activities are performed in authorized lab environments such as TryHackMe and are for educational purposes only.
+All activities are performed in authorized environments such as TryHackMe and are for educational purposes only.
