@@ -1,62 +1,47 @@
-# Introduction to SIEM – TryHackMe Writeup
+# Introduction to SIEM – TryHackMe
 
-This repository documents my hands-on learning from the **Introduction to SIEM** room on TryHackMe. It focuses on understanding how Security Information and Event Management (SIEM) systems function in real-world Security Operations Centers (SOC).
+This lab focuses on the fundamentals of **Security Information and Event Management (SIEM)** and its role within a Security Operations Center (SOC).
 
----
-
-## 🎯 Objectives
-
-- Understand the purpose and architecture of SIEM systems
-- Learn log collection, normalization, and correlation
-- Explore alerting and incident detection workflows
-- Analyze security events using SIEM dashboards
-- Map SIEM concepts to SOC analyst responsibilities
+The room demonstrates how logs from multiple systems are collected, normalized, correlated, and analyzed to detect malicious activity in real time.
 
 ---
 
-## 🧠 Key Concepts Covered
+## 🎯 Learning Objectives
 
-- Log ingestion and aggregation
-- Event correlation and rule-based detection
-- Alert generation and prioritization
-- Threat detection using logs
-- Incident investigation workflow
-
----
-
-## 🛠️ Tools Referenced
-
-- Splunk
-- IBM QRadar
-- Elastic SIEM (ELK Stack)
-- Microsoft Sentinel
+- Understand different types of log sources
+- Identify challenges with isolated log analysis
+- Explore SIEM architecture and core features
+- Learn log ingestion techniques
+- Understand detection rules and alert generation
+- Perform alert investigation
 
 ---
 
-## 📊 SOC Relevance
+## 🧠 SOC Relevance
 
-SIEM is a **core technology in any SOC environment**. This room builds foundational skills required for:
+SIEM platforms are central to SOC operations. This lab builds foundational capabilities in:
 
 - Log analysis
 - Threat detection
-- Alert triaging
+- Alert triage
 - Incident investigation
 
 ---
 
-## 📁 Contents
+## 📂 Contents
 
 | File | Description |
 |------|------------|
-| notes.md | Core theoretical concepts |
-| siem-architecture.md | SIEM workflow and components |
-| use-cases.md | Detection use cases |
-| detection.md | Detection logic and rules |
-| investigation.md | Incident analysis process |
-| tools-overview.md | SIEM tools comparison |
+| notes.md | Core SIEM concepts |
+| log-sources.md | Host vs network logs |
+| siem-features.md | Core SIEM capabilities |
+| log-ingestion.md | Methods of ingesting logs |
+| detection-and-alerting.md | Detection rules & alerting |
+| investigation.md | Alert investigation workflow |
+| lab-analysis.md | Hands-on lab findings |
 
 ---
 
 ## 🚀 Outcome
 
-This exercise strengthened my understanding of how SIEM platforms enable **real-time threat detection and response**, forming the backbone of SOC operations.
+Developed a clear understanding of how SIEM systems enable **centralized visibility, detection, and response** in modern enterprise environments.
