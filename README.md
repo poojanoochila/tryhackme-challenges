@@ -4,7 +4,6 @@
 
 ---
 
-
 ## 🎯 Objective
 
 Aspiring **SOC Analyst** focused on:
