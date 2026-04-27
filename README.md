@@ -18,7 +18,7 @@ Aspiring **SOC Analyst** focused on:
 
 Most TryHackMe repositories focus on exploitation.
 
-This repository focuses on:
+This repository focuses on
 
 * Understanding attacks
 * Identifying **detection indicators (logs, anomalies)**
