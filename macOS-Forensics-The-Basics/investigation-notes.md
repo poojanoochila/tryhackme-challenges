@@ -47,7 +47,7 @@
 
 ## Challenges
 
-* Identifying relevant files among large dataset
+* Identifying relevant files among a large dataset
 * Understanding macOS-specific file structure
 
 ---
