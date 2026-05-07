@@ -154,9 +154,4 @@ Understanding Windows CMD commands is essential for SOC analysts because most en
 
 The TryHackMe Windows Command Line room provided practical exposure to Windows endpoint operations and strengthened foundational cybersecurity investigation skills. These concepts directly support SOC analyst responsibilities, endpoint monitoring, and incident response activities.
 
----
-
-# Author
-
-
-MCA Student | Cybersecurity Enthusiast | SOC Analyst Aspirant
+t
