@@ -15,37 +15,6 @@ The goal of this repository is to build foundational Windows investigation skill
 
 ---
 
-# Repository Structure
-
-```text
-windows-command-line/
-│
-├── README.md
-├── screenshots/
-│   ├── dir-command.png
-│   ├── ipconfig-output.png
-│   ├── netstat-output.png
-│   ├── tasklist-output.png
-│   └── users-output.png
-│
-├── commands/
-│   ├── filesystem.md
-│   ├── networking.md
-│   ├── processes.md
-│   ├── users-groups.md
-│   └── system-info.md
-│
-├── scripts/
-│   ├── endpoint-triage.bat
-│   └── network-check.bat
-│
-└── notes/
-    ├── observations.md
-    └── soc-relevance.md
-```
-
----
-
 # Key Topics Covered
 
 * Windows file system navigation
