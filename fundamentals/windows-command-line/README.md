@@ -77,7 +77,7 @@ whoami /priv
 
 # Cybersecurity Relevance
 
-Understanding Windows CMD commands is essential for SOC analysts because most enterprise endpoints operate on Windows environments. These commands assist analysts in:
+Understanding Windows CMD commands is essential for SOC analysts because most enterprise endpoints operate in Windows environments. These commands assist analysts in:
 
 * Investigating suspicious processes
 * Identifying active network connections
