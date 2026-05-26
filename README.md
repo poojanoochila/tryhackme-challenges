@@ -25,7 +25,7 @@ This repository focuses on:
 * Mapping to **SOC workflows (detect → analyze → respond)**
 
 **Core Highlight:**
-👉 `soc-mapping.md` — Central knowledge base mapping concepts to real-world SOC detection strategies
+ `soc-mapping.md` — Central knowledge base mapping concepts to real-world SOC detection strategies
 
 ---
 
