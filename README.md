@@ -38,7 +38,7 @@ This repository focuses on:
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 * `fundamentals/` → Security concepts and principles
 * `networking/` → Traffic analysis and protocols
