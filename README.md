@@ -67,6 +67,6 @@ Actively preparing for:
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 All activities are performed in authorized environments such as TryHackMe and are for educational purposes only.
