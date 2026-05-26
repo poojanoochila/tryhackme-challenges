@@ -24,7 +24,7 @@ This repository focuses on:
 * Identifying **detection indicators (logs, anomalies)**
 * Mapping to **SOC workflows (detect → analyze → respond)**
 
-📌 **Core Highlight:**
+📌**Core Highlight:**
 👉 `soc-mapping.md` — Central knowledge base mapping concepts to real-world SOC detection strategies
 
 ---
