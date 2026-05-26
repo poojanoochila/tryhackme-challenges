@@ -58,7 +58,7 @@ For each room:
 
 ---
 
-## 🚀 Career Focus
+##  Career Focus
 
 Actively preparing for:
 
