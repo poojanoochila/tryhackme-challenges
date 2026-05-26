@@ -14,7 +14,7 @@ Aspiring **SOC Analyst** focused on:
 
 ---
 
-## ⚡ What Makes This Repository Different
+##  What Makes This Repository Different
 
 Most TryHackMe repositories focus on exploitation.
 
