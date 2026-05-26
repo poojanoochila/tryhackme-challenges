@@ -47,7 +47,7 @@ This repository focuses on:
 
 ---
 
-## 📈 Learning Approach
+##  Learning Approach
 
 For each room:
 
