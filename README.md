@@ -1,4 +1,4 @@
-# 🔐 TryHackMe Challenges
+#  TryHackMe Challenges
 
 > Building real-world **detection and incident response skills** through hands-on labs.
 
