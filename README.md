@@ -29,7 +29,7 @@ This repository focuses on:
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 * Security fundamentals (CIA Triad, security principles)
 * Detection thinking (attack → indicator → response)
