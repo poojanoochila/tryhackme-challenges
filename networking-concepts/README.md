@@ -1,4 +1,4 @@
-# Networking Concepts – TryHackMe Writeup
+# Networking Concepts – 
 
 ## Overview
 
