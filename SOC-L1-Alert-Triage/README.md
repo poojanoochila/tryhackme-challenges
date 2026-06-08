@@ -175,10 +175,6 @@ SOC-L1-Alert-Triage/
 ├── README.md
 ├── Investigation-Notes.md
 ├── Alert-Triage-Workflow.md
-├── Screenshots/
-│   ├── alert-dashboard.png
-│   ├── investigation-1.png
-│   └── investigation-2.png
 └── Lessons-Learned.md
 ```
 
