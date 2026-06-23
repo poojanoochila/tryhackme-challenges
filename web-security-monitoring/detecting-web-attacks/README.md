@@ -1,4 +1,4 @@
-# Detecting Web Attackss
+# Detecting Web Attacks
 
 ## Room Overview
 
