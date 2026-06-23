@@ -1,6 +1,6 @@
 # Detecting Web Attacks
 
-## Room Overvie
+## Room Overview
 
 This room focuses on detecting web attacks using web server logs, network traffic analysis, and Web Application Firewalls (WAFs). During the investigation, an attacker performs directory fuzzing, brute-force attacks, and SQL Injection to compromise a banking application and steal customer data.
 
