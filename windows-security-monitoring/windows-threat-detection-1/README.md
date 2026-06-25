@@ -1,6 +1,6 @@
 # Windows Threat Detection 1
 
-## 
+## Overview
 
 This repository documents my completion of the Windows Threat Detection 1 room on TryHackMe. The room focuses on detecting and investigating common Windows Initial Access techniques through analysis of Windows event logs and system activity.
 
