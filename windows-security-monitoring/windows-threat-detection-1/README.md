@@ -1,4 +1,4 @@
-# Windows Threat Detection 1 - TryHackMe
+# Windows Threat Detection 1 - T
 
 ## Overview
 
