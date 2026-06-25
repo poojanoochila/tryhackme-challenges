@@ -4,7 +4,7 @@
 
 This repository documents my completion of the Windows Threat Detection 1 room on TryHackMe. The room focuses on detecting and investigating common Windows Initial Access techniques through analysis of Windows event logs and system activity.
 
-The investigation scenarios simulate real-world attacks frequently encountered by SOC analysts, including phishing campaigns, RDP-based intrusion attempts, and malware propagation through removable media.
+The investigation scenarios simulate real-world attacks that SOC analysts frequently encounter, including phishing campaigns, RDP-based intrusion attempts, and malware propagation via removable media.
 
 ---
 
