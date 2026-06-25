@@ -124,5 +124,4 @@ These behaviors could be monitored through SIEM correlation rules, endpoint tele
 ## What I Learned
 
 This room strengthened my understanding of how SOC analysts investigate Windows-based threats using host telemetry and event logs. It reinforced practical skills in threat hunting, incident investigation, attacker behavior analysis, and detection engineering.
-
 The techniques covered closely mirror activities performed in real-world Security Operations Centers when responding to initial access and malware-related incidents.
