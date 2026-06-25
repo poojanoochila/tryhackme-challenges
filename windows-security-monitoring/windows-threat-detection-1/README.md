@@ -1,4 +1,4 @@
-# Windows Threat Detection 1
+# Windows Threat Detection 
 
 ## Overview
 
