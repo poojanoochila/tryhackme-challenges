@@ -1,4 +1,4 @@
-# Domain Name
+# Domain Names
 
 ## Definition
 
