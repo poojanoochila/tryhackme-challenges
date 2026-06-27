@@ -39,5 +39,4 @@ This repository documents my study of the Pyramid of Pain framework, a threat in
 - Incident Response
 - MITRE ATT&CK Mapping
 
-## Reference
 
