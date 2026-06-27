@@ -29,6 +29,6 @@ Human-readable names used to access resources on the Internet.
 
 Phishing and Command & Control operations.
 
-## SOC Use Case
+## SOC Use Cas
 
 A phishing email directs users to a suspicious domain that mimics Microsoft 365.
