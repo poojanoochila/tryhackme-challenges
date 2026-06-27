@@ -41,4 +41,4 @@ This repository documents my study of the Pyramid of Pain framework, a threat in
 
 ## Reference
 
-David Bianco's Pyramid of Pain
+David Bianco's Pyramid of
