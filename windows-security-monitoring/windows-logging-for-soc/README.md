@@ -1,8 +1,5 @@
 # Windows Logging for SOC
 
-
-
-
 ## Overview
 
 In this room, I explored how Windows logging supports Security Operations Center (SOC) investigations. The exercises introduced the primary Windows log sources used to detect suspicious activity, investigate security incidents, and reconstruct attacker behaviour.
