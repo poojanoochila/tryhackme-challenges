@@ -2,7 +2,7 @@
 
 > **Platform:** TryHackMe
 > **Difficulty:** Easy
-> **Category:** SOC / Blue Team / Windows Logging
+
 
 ## Overview
 
