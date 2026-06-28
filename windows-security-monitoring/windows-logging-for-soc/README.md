@@ -1,6 +1,5 @@
 # Windows Logging for SOC
 
->
 
 
 
