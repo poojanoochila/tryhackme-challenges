@@ -1,7 +1,7 @@
 # Windows Logging for SOC
 
 > **Platform:** TryHackMe
-> **Diff
+
 
 
 ## Overview
