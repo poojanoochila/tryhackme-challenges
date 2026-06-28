@@ -1,6 +1,6 @@
 # Windows Logging for SOC
 
-> **Platform:** 
+>
 
 
 
