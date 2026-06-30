@@ -1,9 +1,5 @@
 # Linux Logging for SOC
 
-> **Platform:** TryHackMe
-> **Difficulty:** Easy
-> **Category:** SOC / Blue Team / Linux Logging
-
 ## Overview
 
 This repository documents my learning experience from the **Linux Logging for SOC** room on TryHackMe. The room introduced the primary Linux log sources used by Security Operations Centers (SOCs) to investigate incidents, detect suspicious behaviour, and reconstruct attack timelines.
