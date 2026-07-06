@@ -2,44 +2,111 @@
 
 > **Platform:** TryHackMe
 > **Difficulty:** Easy
-> **Category:** SOC / Blue Team / Linux Threat Detection
+> **Category:** SOC / Blue Team / Threat Detection
 
 ## Overview
 
-This repository documents my learning experience from the **Linux Threat Detection 1** room on TryHackMe. The room focuses on detecting common attack techniques targeting Linux systems by analysing authentication logs, application logs, and audit data.
+This repository documents my learning experience from the **Linux Threat Detection 1** room on TryHackMe. The room focuses on detecting common Linux attack techniques by analysing authentication logs, application logs, and audit records to reconstruct attacker activity.
 
-The exercises simulate realistic SOC investigations where the objective is to identify suspicious activity, reconstruct attacker behaviour, and understand how different log sources contribute to incident response.
+Rather than simply identifying indicators of compromise, the room emphasizes developing an investigative mindset by correlating multiple log sources and tracing malicious activity from initial access to post-exploitation.
 
 ---
 
 ## Objectives
 
-* Understand common Linux initial access techniques.
-* Investigate SSH authentication events.
+* Investigate SSH authentication activity.
 * Detect brute-force attacks against Linux systems.
-* Analyse exposed services as potential attack vectors.
-* Build process trees to trace malicious activity.
-* Use audit logs to investigate process execution.
-* Understand advanced initial access techniques and detection strategies.
+* Analyse publicly exposed services as attack vectors.
+* Understand process tree analysis.
+* Investigate suspicious process execution using `auditd`.
+* Correlate multiple log sources during incident investigations.
+* Recognize common Linux Initial Access techniques.
 
 ---
 
-## My Approach
+## Investigation Methodology
 
-I approached each task as a security investigation rather than simply searching for challenge answers.
+I approached each challenge as a real-world SOC investigation by following a structured workflow:
 
-My workflow included:
+1. Reviewed the relevant Linux log source.
+2. Applied filtering techniques to isolate suspicious events.
+3. Identified abnormal authentication or application activity.
+4. Correlated related events across multiple log sources.
+5. Built process relationships to determine the origin of suspicious commands.
+6. Validated findings by tracing the complete attack chain instead of relying on a single indicator.
 
-* Reviewing authentication logs to understand user login activity.
-* Filtering SSH events to identify suspicious authentication attempts.
-* Analysing login patterns to distinguish legitimate access from malicious behaviour.
-* Investigating application logs to understand how exposed services can be abused.
-* Examining audit logs to correlate suspicious processes with their parent processes.
-* Building process trees to trace attacker actions back to their originating application.
-* Understanding how different attack techniques appear within Linux logs.
-* Correlating multiple data sources to reconstruct the attack chain.
+This methodology mirrors the investigation process commonly used by SOC analysts during incident response.
 
-This approach helped me develop a structured investigation methodology similar to what SOC analysts use during real incident investigations.
+---
+
+## Commands Used During Investigation
+
+### SSH Authentication Analysis
+
+Review SSH authentication events:
+
+```bash
+cat /var/log/auth.log | grep "sshd"
+```
+
+Identify failed authentication attempts:
+
+```bash
+cat /var/log/auth.log | grep "Failed password"
+```
+
+Review successful SSH logins:
+
+```bash
+cat /var/log/auth.log | grep "Accepted"
+```
+
+---
+
+### Application Log Analysis
+
+Inspect web server access logs:
+
+```bash
+cat access.log
+```
+
+Review application activity to understand how user input was processed:
+
+```bash
+cat /opt/<application_directory>/<application_file>
+```
+
+---
+
+### Auditd Investigation
+
+Search for execution of a specific process:
+
+```bash
+ausearch -i -x <process_name>
+```
+
+Trace a process using its Process ID (PID):
+
+```bash
+ausearch -i --pid <PID>
+```
+
+Continue tracing parent-child relationships until the originating process is identified.
+
+---
+
+### Process Tree Analysis
+
+Correlate:
+
+* Process ID (PID)
+* Parent Process ID (PPID)
+* Executed command
+* Parent application
+
+This helps determine how a suspicious process originated and whether it was launched by a legitimate application or attacker-controlled process.
 
 ---
 
@@ -48,42 +115,40 @@ This approach helped me develop a structured investigation methodology similar t
 * Linux Authentication Logs
 * SSH Monitoring
 * Password Brute Force Detection
-* Initial Access Techniques
+* Initial Access Detection
 * Public Service Exploitation
 * Application Log Analysis
+* Linux Audit Framework (`auditd`)
 * Process Tree Analysis
-* Parent and Child Processes
-* Linux Audit Logs (`auditd`)
-* Command Execution Monitoring
-* Reverse Shell Detection
+* Parent and Child Process Relationships
+* Reverse Shell Investigation
 * MITRE ATT&CK Initial Access Techniques
 
 ---
 
 ## Skills Gained
 
-After completing this room, I became more confident in:
+After completing this room, I am more confident in:
 
-* Investigating SSH authentication events.
+* Analysing SSH authentication logs.
 * Detecting brute-force attacks through log analysis.
-* Identifying suspicious remote access patterns.
-* Analysing Linux application logs for signs of exploitation.
-* Understanding how vulnerable services can be leveraged by attackers.
-* Building process trees to trace attacker activity.
-* Using audit logs to investigate executed commands.
-* Correlating multiple log sources during incident investigations.
-* Mapping attacker behaviour to the MITRE ATT&CK framework.
+* Investigating suspicious remote logins.
+* Understanding how exposed services can become initial access vectors.
+* Using `auditd` to investigate process execution.
+* Building process trees to reconstruct attacker activity.
+* Correlating authentication, application, and audit logs.
+* Applying structured investigation techniques during incident response.
 
 ---
 
 ## Key Takeaways
 
-One of the biggest lessons from this room was the importance of following the attack chain rather than investigating isolated events. Authentication logs reveal how attackers gain access, application logs provide context on exploited services, and audit logs help reconstruct the exact sequence of executed processes.
+This room reinforced that successful threat detection relies on correlation rather than isolated events. Authentication logs reveal how access was obtained, application logs provide context around exploited services, and audit logs allow analysts to trace command execution and reconstruct the complete attack chain.
 
-Another important takeaway was learning how process tree analysis can quickly identify the origin of suspicious commands, making it one of the most valuable investigation techniques for Linux-based incident response.
+Process tree analysis proved to be one of the most valuable techniques for identifying the true origin of suspicious activity, making it an essential skill for Linux-focused SOC investigations.
 
 ---
 
 ## Conclusion
 
-The **Linux Threat Detection 1** room provided practical experience analysing Linux logs from a defender's perspective. It strengthened my understanding of detecting initial access techniques, investigating compromised services, and reconstructing attacker behaviour using authentication logs, application logs, and audit data. These skills are directly applicable to Security Operations Center (SOC) investigations, threat hunting, and incident response.
+The **Linux Threat Detection 1** room strengthened my understanding of Linux threat detection by combining authentication analysis, application log review, and audit-based process investigation. It provided hands-on experience following attacker activity from initial access through process execution while reinforcing investigation techniques commonly used in Security Operations Centers (SOCs), threat hunting, and incident response.
