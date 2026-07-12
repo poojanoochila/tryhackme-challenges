@@ -1,4 +1,4 @@
-# File and Hash Threat Intelligence
+# File and Hash Threat Intelligenc
 
 > **Platform:** TryHackMe  
 > **Difficulty:** Easy  
