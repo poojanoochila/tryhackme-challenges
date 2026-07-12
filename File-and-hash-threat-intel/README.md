@@ -172,4 +172,4 @@ Another important takeaway was learning how sandbox reports complement hash repu
 
 ## Conclusion
 
-The **File and Hash Threat Intelligence** room provided practical experience using file hashes and open-source intelligence platforms to investigate suspicious files. It strengthened my understanding of malware identification, threat intelligence correlation, behavioral analysis, and IOC extraction—core skills used daily by SOC analysts, malware analysts, and incident responders.
+The **File and Hash Threat Intelligence** room provided practical experience using file hashes and open-source intelligence platforms to investigate suspicious files. It strengthened my understanding of malware identification, threat intelligence correlation, behavioral analysis, 
