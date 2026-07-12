@@ -1,4 +1,4 @@
-File and Hash Threat Intel
+
 # File and Hash Threat Intelligence
 
 > **Platform:** TryHackMe  
