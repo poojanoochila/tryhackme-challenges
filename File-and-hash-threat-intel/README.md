@@ -168,8 +168,3 @@ One of the most valuable lessons from this room was understanding that a file's 
 
 Another important takeaway was learning how sandbox reports complement hash reputation by revealing runtime behavior, process execution, persistence techniques, and potential attacker objectives.
 
----
-
-
-
-
