@@ -4,7 +4,7 @@
 > **Difficulty:** Easy  
 > **Category:** Threat Intelligence / Malware Analysis / SOC
 
-## Overview
+## Overvie
 
 This repository documents my learning experience from the **File and Hash Threat Intelligence** room on TryHackMe. The room focuses on identifying suspicious files using file metadata, cryptographic hashes, and open-source threat intelligence platforms.
 
