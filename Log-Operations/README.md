@@ -10,7 +10,7 @@ This repository documents my learning experience from the **Log Operations** roo
 
 Instead of analysing logs directly, this room emphasizes how organizations should design and manage logging strategies to ensure logs remain useful for security monitoring, troubleshooting, compliance, and forensic investigations.
 
----
+--
 
 ## Objectives
 
