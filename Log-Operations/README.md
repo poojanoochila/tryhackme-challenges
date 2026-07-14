@@ -1,4 +1,4 @@
-# Log Operations
+# Log Operations 
 
 > **Platform:** TryHackMe  
 > **Difficulty:** Easy  
