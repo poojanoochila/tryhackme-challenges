@@ -3,6 +3,7 @@
 > **Platform:** TryHackMe  
 > **Difficulty:** Easy  
 > **Category:** SOC / Blue Team / Logging
+> 
 ## Overview
 
 This repository documents my learning experience from the **Log Operations** room on TryHackMe. The room focuses on the importance of logging in security operations, covering log planning, configuration, storage, accessibility, compliance requirements, and common mistakes that affect monitoring and incident response.
