@@ -1,4 +1,4 @@
-# Security Engineer Intr
+# Security Engineer Intro
 
 ## Objective
 This room introduces the role of a Security Engineer and their responsibilities in protecting systems, networks, and applications. It provides a foundational understanding of defensive security practices and how they align with SOC operations.
