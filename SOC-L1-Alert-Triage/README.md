@@ -1,4 +1,4 @@
-# SOC L1 Alert Triage - TryHackMe
+# SOC L1 Alert Triage - TryHackMe 
 
 ## Overview
 
