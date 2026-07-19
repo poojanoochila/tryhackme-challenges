@@ -5,6 +5,7 @@
 > **Category:** Digital Forensics / Incident Response / SOC
 
 
+
 ## Overview
 
 This repository documents my learning experience from the **Intro to Digital Forensics** room on TryHackMe. The room introduces the fundamentals of digital forensics, covering the forensic investigation process, evidence handling, data acquisition, and the importance of maintaining evidence integrity during an investigation.
