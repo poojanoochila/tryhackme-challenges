@@ -1,4 +1,4 @@
-# Intro to Digital Forensics
+# Intro to Digital Forensic
 
 > **Platform:** TryHackMe  
 > **Difficulty:** Easy  
