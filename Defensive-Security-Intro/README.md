@@ -5,6 +5,7 @@
 > **Difficulty:** Easy  
 > **Category:** SOC / Blue Team / Cybersecurity Fundamentals
 
+
 ## Overview
 
 This repository documents my learning experience from the **Defensive Security Intro** room on TryHackMe. The room provides an introduction to defensive cybersecurity by explaining the responsibilities of Blue Teams, the role of Security Operations Centers (SOC), Digital Forensics and Incident Response (DFIR), Malware Analysis, Threat Intelligence, and Security Information and Event Management (SIEM).
