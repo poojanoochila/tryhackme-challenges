@@ -7,7 +7,7 @@ This project documents a forensic investigation conducted on a macOS disk image.
 ---
 
 ## Objectives
-
+ 
 * Analyze a mounted macOS disk image
 * Extract user-related artifacts
 * Identify and validate critical evidence
