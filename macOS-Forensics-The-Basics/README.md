@@ -1,4 +1,4 @@
-# macOS Forensics: The Basics — SOC Investigation
+# macOS Forensics: The Basics — SOC Investigation 
    
 ## Overview
 
