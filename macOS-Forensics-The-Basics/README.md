@@ -14,7 +14,7 @@ This project documents a forensic investigation conducted on a macOS disk image.
 * Simulate a SOC/DFIR investigation workflow
 
 ---
-
+ 
 ## Investigation Summary
 
 ### Evidence Acquisition
