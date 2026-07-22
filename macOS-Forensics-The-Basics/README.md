@@ -2,7 +2,7 @@
    
 ## Overview 
 
-This project documents a forensic investigation conducted on a macOS disk image. The objective was to extract and validate user-level evidence to answer a targeted investigative question.
+This project documents a forensic investigation conducted on a macOS disk image. The objective was to extract and validate user-level evidence to answer a targeted investigative question. 
 
 ---
 
