@@ -6,7 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ## Overview 
- 
+
 The **Offensive Security Intro** room on TryHackMe provides a beginner-friendly introduction to offensive security and ethical hacking.
 
 The room demonstrates how security professionals think and operate like attackers to identify weaknesses in systems and applications. It includes a practical exercise involving a simulated banking web application, allowing learners to safely perform reconnaissance and identify hidden web application functionality.
