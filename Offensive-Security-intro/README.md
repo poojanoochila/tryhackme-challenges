@@ -1,6 +1,6 @@
 # TryHackMe — Offensive Security Intro
 
-![TryHackMe](https://img.shields.io/badge/Platform-TryHackMe-red)
+![TryHackMe](https://img.shields.io/badge/Platform-TryHackMe-red) 
 ![Category](https://img.shields.io/badge/Category-Offensive%20Security-orange)
 ![Focus](https://img.shields.io/badge/Focus-Web%20Security-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
