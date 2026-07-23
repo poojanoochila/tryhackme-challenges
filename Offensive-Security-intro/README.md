@@ -1,4 +1,3 @@
-
 # TryHackMe — Offensive Security Intro
 
 ![TryHackMe](https://img.shields.io/badge/Platform-TryHackMe-red)
