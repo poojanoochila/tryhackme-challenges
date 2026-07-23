@@ -5,7 +5,7 @@
 ![Focus](https://img.shields.io/badge/Focus-Web%20Security-blue)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## Overview
+## Overview 
 
 The **Offensive Security Intro** room on TryHackMe provides a beginner-friendly introduction to offensive security and ethical hacking.
 
