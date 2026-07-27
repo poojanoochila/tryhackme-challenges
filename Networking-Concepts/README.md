@@ -2,7 +2,7 @@
 
 > **Platform:** TryHackMe  
 > **Difficulty:** Easy  
-> **Category:** Digital Forensics / Incident Response / 
+> **Category:** Digital Forensics / Incident Response /
 
 ## Overview
 
