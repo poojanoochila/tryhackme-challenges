@@ -1,4 +1,4 @@
-# Flask Web Application Security Analysis (SS
+# Flask Web Application Security Analysis (S
 
 ## Overview
 This module documents hands-on analysis of a Flask-based web application, focusing on framework fundamentals and security implications of improper template handling.
