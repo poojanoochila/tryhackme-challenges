@@ -1,4 +1,4 @@
-# Flask Web Application Security Analysis (SSTI Case S
+# Flask Web Application Security Analysis (SSTI Case 
 
 ## Overview
 This module documents hands-on analysis of a Flask-based web application, focusing on framework fundamentals and security implications of improper template handling.
