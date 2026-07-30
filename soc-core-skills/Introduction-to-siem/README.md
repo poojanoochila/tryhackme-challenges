@@ -1,4 +1,4 @@
-# Introduction to SIEM – TryHac
+# Introduction to SIEM – TryHa
 
 This lab focuses on the fundamentals of **Security Information and Event Management (SIEM)** and its role within a Security Operations Center (SOC).
 
