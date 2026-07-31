@@ -1,4 +1,4 @@
-# Domain Names La
+# Domain Names Lab
 
 ## Definition
 
