@@ -1,4 +1,4 @@
-# Defensive Security Intro Labb
+# Defensive Security Intro Lab
 
 > **Platform:** TryHackMe  
 > **Difficulty:** Easy  
