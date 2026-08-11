@@ -1,4 +1,4 @@
-# Defensive Security Intro L
+# Defensive Security Intro 
 
 > **Platform:** TryHackMe  
 > **Difficulty:** Easy  
