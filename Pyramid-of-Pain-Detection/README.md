@@ -1,4 +1,4 @@
-# Pyramid of Pain Detection L
+# Pyramid of Pain Detection La
 
 
 ## Overview
