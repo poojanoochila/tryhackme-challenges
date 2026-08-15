@@ -1,6 +1,6 @@
 # Defensive Security Intro Lab
 
-> **Platform:** TryHackMe  
+> **Platform:** TryHackMe 
 > **Difficulty:** Easy  
 > **Category:** SOC / Blue Team / Cybersecurity Fundamentals
 
